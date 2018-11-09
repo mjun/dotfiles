@@ -1,0 +1,47 @@
+conky.config = {
+	alignment = 'bottom_left',
+	background = true,
+	color2 = '5D7B86',
+	cpu_avg_samples = 2,
+	default_color = 'F9FAF9',
+	double_buffer = true,
+	font = 'Bitstream Vera Sans:size=9',
+	draw_shades = true,
+    default_shade_color = '000000',
+	gap_x = 25,
+	gap_y = 45,
+	minimum_width = 200,
+	no_buffers = true,
+	own_window = true,
+	own_window_type = 'override',
+	own_window_transparent = true,
+	update_interval = 2.0,
+	use_xft = true,
+}
+conky.text = [[
+${color2}switch between windows in stack - ${color}mod+j/k
+${color2}move windows in stack - ${color}mod+Shift+j/k
+${color2}shrink/grow windows (xmonad/tile) - ${color}mod+Shift+h/l
+${color2}maximize window - ${color}mod+Ctrl+m
+${color2}restore window - ${color}mod+Ctrl+n
+${color2}toggle floating - ${color}mod+Space
+${color2}swap stack panes - ${color}mod+Shift+space
+${color2}split/unsplit stack - ${color}mod+Shift+Return
+
+${color2}toggle layouts - ${color}mod+Tab
+${color2}send window to adjecent workspace - ${color}mod+Shift+left/right
+${color2}switch to workspace 1-9 - ${color}mod+1-9
+${color2}send to workspace 1-9 - ${color}mod+Shift+1-9
+
+${color2}close window - ${color}mod+Shift+q
+${color2}dmenu - ${color}mod+r
+${color2}bmenu - ${color}mod+s
+${color2}morc_menu - ${color}mod+m
+
+${color2}urxvt - ${color}mod+Enter
+${color2}firefox - ${color}mod+w
+${color2}pcmanfm - ${color}mod+f
+${color2}geany - ${color}mod+e
+
+${color2}session - ${color}mod+Ctrl+q
+]]
